@@ -20,5 +20,18 @@ function logingUserName(userName){
 
 
 
+      // use object 
+        const user = {
+            userName : "vinay",
+           prices : 199 ,
+      }
+       
+      function handleObject(anyobject){
+        console.log(`user name is ${anyobject.userName} and price is ${anyobject.prices}`)
+      }
+      handleObject(user)
+
+
+
 
       
